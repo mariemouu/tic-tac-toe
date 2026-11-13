@@ -71,3 +71,15 @@ void player_turn(char *board)
     }
     board[pos] = 'X';
 }
+
+void computer_turn(char *board)
+{
+    int i = 0;
+
+    while (board[i] != ' ')
+    {
+        i = i + 1;
+    }
+    board[i] = 'O';
+    printf("L'ordinateur joue la case %d.\n", i);
+}

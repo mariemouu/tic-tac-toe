@@ -5,9 +5,9 @@ int main(void)
 {
     char board[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
 
-    board[2] = 'O';
     print_board(board);
     player_turn(board);
+    computer_turn(board);
     print_board(board);
     exit(0);
 }
