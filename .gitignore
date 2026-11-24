@@ -1,0 +1,6 @@
+# Exécutable généré par la compilation
+tic-tac-toe
+*.o
+
+# Fichiers système
+.DS_Store
